@@ -89,7 +89,7 @@ print(dosagesJson)
 ```
 
 ### Estimate pool volume
-If you pass ORENDA_USA, result will be in square feets, and parameters are considered to be in feets. If you pass ORENDA_METRIC meters and square meters are used.
+If you pass `ORENDA_USA`, result will be in square feets, and parameters are considered to be in feets. If you pass `ORENDA_METRIC` meters and square meters will be used.
 ```Swift
 let poolVolume = OrendaCalculator.estimatePoolVolume(shape: .circle(radius: 100, depth: 20), measurement: ORENDA_USA)
 ```
@@ -122,4 +122,71 @@ suspend fun initOrendaCalculator(): Boolean {
         OrendaCalculator.init(token)
     }
 }
+```
+
+## OrendaCalculator API
+After initialize you are able to call OrendaCalculator methods. Here are the examples
+
+### Calculate LSI
+```Kotlin
+val lsi = OrendaCalculator.calculateLSI(
+    waterTemperatureCurrent = Temperature.Fahrenheit(80.0),
+    waterTemperatureDesired = Temperature.Fahrenheit(80.0),
+    pHCurrent = 7.6,
+    pHDesired = 8.1,
+    totalAlkalinityCurrent = 80.0,
+    totalAlkalinityDesired = 90.0,
+    calciumCurrent = 320.0,
+    calciumDesired = 370.0,
+    cyaCurrent = 35.0,
+    cyaDesired = 0.0,
+    saltCurrent = 400.0,
+    saltDesired = 900.0,
+    boratesCurrent = 0.0,
+    boratesDesired = 0.0
+) ?: throw IllegalStateException("Orenda hasn't been initialized")
+
+Log.d("lsi", lsi.toString())
+```
+
+### Calculate dosages
+`calculateDosages` returns json data, used to render Orenda app's calculation result screen.
+You can pass either `Measurement.USA` or `Measurement.METRIC` for different measurement units.
+```Kotlin
+val dosagesJson = OrendaCalculator.calculateDosages(
+    poolVolume = PoolVolume.Gallons(666.0),
+    currentTemperature = Temperature.Fahrenheit(87.0),
+    pHCurrent = 7.6,
+    pHDesired = 8.1,
+    totalAlkalinityCurrent = 80.0,
+    totalAlkalinityDesired = 90.0,
+    calciumCurrent = 320.0,
+    calciumDesired = 370.0,
+    cyaCurrent = 35.0,
+    cyaDesired = 0.0,
+    saltCurrent = 400.0,
+    saltDesired = 900.0,
+    boratesCurrent = 0.0,
+    measurement = Measurement.USA,
+    chlorineCurrent = 0.0,
+    chlorineDesired = 9.5,
+    phosphateCurrent = 500.0,
+    phosphateDesired = 0.0
+)
+
+print(dosagesJson)
+```
+
+### Estimate pool volume
+If you pass `Measurement.USA`, result will be in square feets, and parameters are considered to be in feets. If you pass `Measurement.METRIC` meters and square meters will be used.
+```Swift
+val poolVolume = OrendaCalculator.estimatePoolVolume(
+    poolShape = PoolShape.Rectangle(
+        width = 100.0,
+        length = 100.0,
+        shallowDepth = 10.0,
+        deepDepth = 10.0
+    ),
+    measurement = Measurement.USA
+)
 ```
