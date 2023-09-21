@@ -57,3 +57,30 @@ if let lsi: LSIResult = OrendaCalculator.calculateLSI(
     print("carbonateAlkalinityDesired=", lsi.carbonateAlkalinityDesired)
 }
 ```
+
+`calculateDosages` returns json representing data, used to render Orenda app's calculation result screen.
+You can pass either `ORENDA_USA` or `ORENDA_METRIC` for different measurement units.
+```Swift
+let dosagesJson: String = OrendaCalculator.calculateDosages(
+    poolVolume: .gallons(1000),
+    measurement: ORENDA_USA,
+    pHCurrent: 7.6,
+    currentTemperature: .fahrenheit(80),
+    totalAlkalinityCurrent: 80,
+    calciumCurrent: 400,
+    cyaCurrent: 35,
+    saltCurrent: 400,
+    boratesCurrent: 0,
+    chlorineCurrent: 0.5,
+    phosphateCurrent: 500,
+    pHDesired: 8.2,
+    totalAlkalinityDesired: 120,
+    calciumDesired: 370,
+    cyaDesired: 300,
+    saltDesired: 900,
+    chlorineDesired: 9.5,
+    phosphateDesired: 0
+)
+
+print(dosagesJson)
+```
