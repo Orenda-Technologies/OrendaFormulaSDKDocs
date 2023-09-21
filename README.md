@@ -6,9 +6,9 @@
 2) In settings -> Build phases of your XCode project add OrendaFormula.xcframework as a dependency
 <img width="390" alt="Screenshot 2023-09-21 at 7 48 24 PM" src="https://github.com/Orenda-Technologies/OrendaFormulaSDKDocs/assets/12134914/f0035258-76ab-429e-9775-0da86ae0d086"><br />
 
-3) Before using any methods of OrendaCalculator class you have to initialize the formula. Call initialize method of OrendaCalculator and pass your token. 
+3) Before using any methods of OrendaCalculator class you have to initialize the formula. Call `initialize` method of OrendaCalculator and pass your token. 
 #### Note:
-Initialize method shoould be called on a BACKGROUND thread.
+`initialize` method shoould be called on a BACKGROUND thread.
 #### Note:
 Internet connection is required to initialize OrendaCalculator for the first time. Then you have to connect to the internet at least once per 2 weeks or per 1 month to update the token. The delay is sepcified in the token, issued to you. SDK does everything autmatically you just have to call initalize all the time you start working with OrendaCalculator
 
@@ -92,4 +92,32 @@ print(dosagesJson)
 If you pass ORENDA_USA, result will be in square feets, and parameters are considered to be in feets. If you pass ORENDA_METRIC meters and square meters are used.
 ```Swift
 let poolVolume = OrendaCalculator.estimatePoolVolume(shape: .circle(radius: 100, depth: 20), measurement: ORENDA_USA)
+```
+
+# iOS
+
+## Setup 
+
+1) Copy OrendaFormula.aar to your app/libs folder
+2) Add a dependency to your app/build.gradle.kts
+```
+dependencies {
+    ...
+    implementation(files("libs/OrendaFormula.aar"))
+}
+```
+3) Before using any methods of OrendaCalculator class you have to initialize the formula. Call `init` method of OrendaCalculator and pass your token. 
+#### Note:
+`init` method shoould be called on a BACKGROUND thread.
+#### Note:
+Internet connection is required to initialize OrendaCalculator for the first time. Then you have to connect to the internet at least once per 2 weeks or per 1 month to update the token. The delay is sepcified in the token, issued to you. SDK does everything autmatically you just have to call initalize all the time you start working with OrendaCalculator
+
+#### Example:
+```Kotlin
+suspend fun initOrendaCalculator(): Boolean {
+    val token = "GVlzMF808NOR/Hhn6BEgSt8o6iNITqdd0B+2LfHRqHEgu117BzFuCPIDppjJItSn05C8fus1CBJntKSY3NAJ37rT8EPVqCRSsdsglee0Kn9+ma7/r2b47jXYFQka9zq/dsV91xdlAhV7nZGWQpxFkAyC4aR1EaefR8shqiSFW8WGg8mgoAbYBhj4wyWBYaeD3IZjyavaXhO9fYnSuoMjRKEvTfBhmf+Qd+1z1MDU0VkovdDN2y4P2FkBtVnq5M+x"
+    return withContext(Dispatchers.IO) {
+        OrendaCalculator.init(token)
+    }
+}
 ```
