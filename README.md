@@ -114,6 +114,8 @@ Internet connection is required to initialize OrendaCalculator for the first tim
 
 #### Example:
 ```Kotlin
+import com.orenda.formula.OrendaCalculator
+
 suspend fun initOrendaCalculator(): Boolean {
     val token = "GVlzMF808NOR/Hhn6BEgSt8o6iNITqdd0B+2LfHRqHEgu117BzFuCPIDppjJItSn05C8fus1CBJntKSY3NAJ37rT8EPVqCRSsdsglee0Kn9+ma7/r2b47jXYFQka9zq/dsV91xdlAhV7nZGWQpxFkAyC4aR1EaefR8shqiSFW8WGg8mgoAbYBhj4wyWBYaeD3IZjyavaXhO9fYnSuoMjRKEvTfBhmf+Qd+1z1MDU0VkovdDN2y4P2FkBtVnq5M+x"
     return withContext(Dispatchers.IO) {
