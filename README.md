@@ -94,7 +94,7 @@ If you pass ORENDA_USA, result will be in square feets, and parameters are consi
 let poolVolume = OrendaCalculator.estimatePoolVolume(shape: .circle(radius: 100, depth: 20), measurement: ORENDA_USA)
 ```
 
-# iOS
+# Android
 
 ## Setup 
 
