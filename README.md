@@ -89,7 +89,7 @@ print(dosagesJson)
 ```
 
 ### Estimate pool volume
-If you pass `ORENDA_USA`, result will be in square feets, and parameters are considered to be in feets. If you pass `ORENDA_METRIC` meters and square meters will be used.
+If you pass `ORENDA_USA`, result will be in gallons, and parameters are considered to be in feets. If you pass `ORENDA_METRIC` meters and liters will be used.
 ```Swift
 let poolVolume = OrendaCalculator.estimatePoolVolume(shape: .circle(radius: 100, depth: 20), measurement: ORENDA_USA)
 ```
@@ -178,7 +178,7 @@ Log.d("dosages", dosagesJson)
 ```
 
 ### Estimate pool volume
-If you pass `Measurement.USA`, result will be in square feets, and parameters are considered to be in feets. If you pass `Measurement.METRIC` meters and square meters will be used.
+If you pass `Measurement.USA`, result will be in gallons, and parameters are considered to be in feets. If you pass `Measurement.METRIC` meters and liters will be used.
 ```Swift
 val poolVolume = OrendaCalculator.estimatePoolVolume(
     poolShape = PoolShape.Rectangle(
