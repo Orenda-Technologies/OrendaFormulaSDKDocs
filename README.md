@@ -10,7 +10,7 @@
 #### Note:
 `initialize` method shoould be called on a BACKGROUND thread.
 #### Note:
-Internet connection is required to initialize OrendaCalculator for the first time. Then you have to connect to the internet at least once per 2 weeks or per 1 month to update the token. The delay is sepcified in the token, issued to you. SDK does everything autmatically you just have to call initalize all the time before you start working with OrendaCalculator. You can do in `ApplicationDelegate didFinishLaunchingWithOptions` for example.
+Internet connection is required to initialize OrendaCalculator for the first time. Then you have to connect to the internet at least once per 2 weeks or per 1 month to update the token. The delay is sepcified in the token, issued to you. SDK does everything autmatically you just have to call initalize all the time before you start working with OrendaCalculator. You can do it in `ApplicationDelegate didFinishLaunchingWithOptions` for example.
 
 #### Example:
 
