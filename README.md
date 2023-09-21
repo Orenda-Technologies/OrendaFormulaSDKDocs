@@ -174,7 +174,7 @@ val dosagesJson = OrendaCalculator.calculateDosages(
     phosphateDesired = 0.0
 )
 
-print(dosagesJson)
+Log.d("dosages", dosagesJson)
 ```
 
 ### Estimate pool volume
