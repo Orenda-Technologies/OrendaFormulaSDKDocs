@@ -84,3 +84,8 @@ let dosagesJson: String = OrendaCalculator.calculateDosages(
 
 print(dosagesJson)
 ```
+
+If you pass ORENDA_USA, result will be in square feets, and parameters are considered to be in feets. If you pass ORENDA_METRIC meters and square meters are used.
+```Swift
+let poolVolume = OrendaCalculator.estimatePoolVolume(shape: .circle(radius: 100, depth: 20), measurement: ORENDA_USA)
+```
