@@ -58,7 +58,7 @@ if let lsi: LSIResult = OrendaCalculator.calculateLSI(
 }
 ```
 
-`calculateDosages` returns json representing data, used to render Orenda app's calculation result screen.
+`calculateDosages` returns json data, used to render Orenda app's calculation result screen.
 You can pass either `ORENDA_USA` or `ORENDA_METRIC` for different measurement units.
 ```Swift
 let dosagesJson: String = OrendaCalculator.calculateDosages(
