@@ -29,6 +29,8 @@ DispatchQueue.global().async {
 
 ### OrendaCalculator API
 After initialize you are able to call OrendaCalculator methods. Here are the examples
+
+#### Calculate LSI
 ```Swift
 import OrendaFormulaiOS
 
@@ -58,6 +60,7 @@ if let lsi: LSIResult = OrendaCalculator.calculateLSI(
 }
 ```
 
+#### Calculate dosages
 `calculateDosages` returns json data, used to render Orenda app's calculation result screen.
 You can pass either `ORENDA_USA` or `ORENDA_METRIC` for different measurement units.
 ```Swift
@@ -85,6 +88,7 @@ let dosagesJson: String = OrendaCalculator.calculateDosages(
 print(dosagesJson)
 ```
 
+#### Estimate pool volume
 If you pass ORENDA_USA, result will be in square feets, and parameters are considered to be in feets. If you pass ORENDA_METRIC meters and square meters are used.
 ```Swift
 let poolVolume = OrendaCalculator.estimatePoolVolume(shape: .circle(radius: 100, depth: 20), measurement: ORENDA_USA)
