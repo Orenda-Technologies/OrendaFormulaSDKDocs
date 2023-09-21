@@ -22,3 +22,19 @@ DispatchQueue.global().async {
     }
 }
 ```
+
+### OrendaCalculator API
+After initialize you are able to call OrendaCalculator methods. Here are the examples
+```Swift
+import OrendaFormulaiOS
+
+if let lsi: LSIResult = OrendaCalculator.calculateLSI(
+    waterTemperatureCurrent: .fahrenheit(87), pHCurrent: 7.6, totalAlkalinityCurrent: 80, calciumCurrent: 320, cyaCurrent: 35, saltCurrent: 400, boratesCurrent: 0, waterTemperatureDesired: .fahrenheit(87), pHDesired: 8.1, totalAlkalinityDesired: 90, calciumDesired: 370, cyaDesired: 0, saltDesired: 900, boratesDesired: 0) {
+    print("current=", lsi.current)
+    print("desired=", lsi.desired)
+    print("phCellingCurrent=", lsi.phCellingCurrent)
+    print("phCellingDesired=", lsi.phCellingDesired)
+    print("carbonateAlkalinityCurrent=", lsi.carbonateAlkalinityCurrent)
+    print("carbonateAlkalinityDesired=", lsi.carbonateAlkalinityDesired)
+}
+```
