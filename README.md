@@ -1,18 +1,18 @@
-## iOS
+# iOS
 
-### Setup 
+## Setup 
 
 1) Copy OrendaFormula.xcframework into your project directory
 2) In settings -> Build phases of your XCode project add OrendaFormula.xcframework as a dependency
 <img width="390" alt="Screenshot 2023-09-21 at 7 48 24 PM" src="https://github.com/Orenda-Technologies/OrendaFormulaSDKDocs/assets/12134914/f0035258-76ab-429e-9775-0da86ae0d086"><br />
 
 3) Before using any methods of OrendaCalculator class you have to initialize the formula. Call initialize method of OrendaCalculator and pass your token. 
-##### Note:
+#### Note:
 Initialize method shoould be called from a BACKGROUND thread.
-##### Note:
+#### Note:
 Internet connection is required to initialize OrendaCalculator for the first time. Then you have to connect to the internet at least once per 2 weeks or per 1 month to update the token. The delay is sepcified in the token, issued to you. SDK does everything autmatically you just have to call initalize all the time you start working with OrendaCalculator
 
-##### Example:
+#### Example:
 
 ```Swift
 import OrendaFormulaiOS
@@ -27,10 +27,10 @@ DispatchQueue.global().async {
 }
 ```
 
-### OrendaCalculator API
+## OrendaCalculator API
 After initialize you are able to call OrendaCalculator methods. Here are the examples
 
-#### Calculate LSI
+### Calculate LSI
 ```Swift
 import OrendaFormulaiOS
 
@@ -60,7 +60,7 @@ if let lsi: LSIResult = OrendaCalculator.calculateLSI(
 }
 ```
 
-#### Calculate dosages
+### Calculate dosages
 `calculateDosages` returns json data, used to render Orenda app's calculation result screen.
 You can pass either `ORENDA_USA` or `ORENDA_METRIC` for different measurement units.
 ```Swift
@@ -88,7 +88,7 @@ let dosagesJson: String = OrendaCalculator.calculateDosages(
 print(dosagesJson)
 ```
 
-#### Estimate pool volume
+### Estimate pool volume
 If you pass ORENDA_USA, result will be in square feets, and parameters are considered to be in feets. If you pass ORENDA_METRIC meters and square meters are used.
 ```Swift
 let poolVolume = OrendaCalculator.estimatePoolVolume(shape: .circle(radius: 100, depth: 20), measurement: ORENDA_USA)
