@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/OrendaDosagesObjC.h</key>
-		<data>
-		Ez5eupjb3p0XW3quBt4iFVZQHso=
-		</data>
 		<key>Headers/OrendaFormula.h</key>
 		<data>
-		fWwLLtW9hvX7p47VQjrpaJYIwnE=
+		BgflAddwSwEo/a0sSKHfA9DHzCM=
 		</data>
 		<key>Headers/OrendaFormulaiOS-Swift.h</key>
 		<data>
@@ -18,11 +14,7 @@
 		</data>
 		<key>Headers/OrendaFormulaiOS.h</key>
 		<data>
-		vIoMUrtFTToA1p+fyzXEV23zxGc=
-		</data>
-		<key>Headers/OrendaMeasurement.h</key>
-		<data>
-		CBjyFqffW3kgq1SDGw+8cUcUrC4=
+		6OFlv7zzcM3xpsXTa5co9CX7K3w=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -30,19 +22,19 @@
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		c5sI9sFyIhytpmK38aOGKbakjic=
+		zypez3fCKWKcSXRDk/DV4ExhjiQ=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		GhYOQEbr6xqtNeWXW4JJJeXeEno=
+		uipyK29krMuACnLZ897OYIA4MxQ=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		BHgzeuiSKDdzY1ZODtdA3H7hsIU=
+		4f+m5Al9uB43idUg1xDjbpvEA+I=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vwllYSa3wkMrHWhH26qyCD4YxnE=
+		SkYclllRIs068GELO/rMo0tSBhQ=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,19 +42,19 @@
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vwllYSa3wkMrHWhH26qyCD4YxnE=
+		SkYclllRIs068GELO/rMo0tSBhQ=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bVmxMfefh+mlyooQOmW5JL+r/U4=
+		QXX1bUSuTrIPPdRUEqaYgmEHO0c=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		BHgzeuiSKDdzY1ZODtdA3H7hsIU=
+		4f+m5Al9uB43idUg1xDjbpvEA+I=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eu8rbQdxtv275psKlFBrq4wn2ng=
+		aahh7u8JteAHp51QnX5tM2UDTsY=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -70,11 +62,11 @@
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eu8rbQdxtv275psKlFBrq4wn2ng=
+		aahh7u8JteAHp51QnX5tM2UDTsY=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ls5rdVaGBwHx/GzyFhFBpU/1fzY=
+		0z9N7nuBJTYfexLrPap9+UYusQo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,18 +75,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/OrendaDosagesObjC.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dhWzDaQ1il8UYHisfy0el5S1knFzq9qxFIm0jMmdZdc=
-			</data>
-		</dict>
 		<key>Headers/OrendaFormula.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5xSfz0Se8ThMl0AsbxXihlZ2xC3cX1hNSxyyOQmeQiM=
+			PqG78/jJu0Njv5JO4B1ytSMFFVT9a9szt4OChD7RhRI=
 			</data>
 		</dict>
 		<key>Headers/OrendaFormulaiOS-Swift.h</key>
@@ -108,42 +93,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wblElZR8SFI9Q0TldzZljeoISVLV6hyNTHBhSuSSpr4=
-			</data>
-		</dict>
-		<key>Headers/OrendaMeasurement.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5RjHcMMpW87cci69E1+Qjns0CMAl8jtkBIs/UkDpHvg=
+			u2pFHidgmpiw8I9RmOBJeoibtdamMDbr+qB1CH00uBo=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FzqKEN/PCCdw2h+ZFqcoBm/7jgmDJDW9tL1l7i6uI5M=
+			nfQgkEK4m9uv1ZB6rQKh3pjooBuMDFnoyVCXZ7WM5Es=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c9LPWqi5prSyq41UwD3o+VSSDfHMHn65QMB2MhO3KeE=
+			wkF+Vmmic64BNwIgzFYSx2IYfQKBakPo8T9wv6SAiJk=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+phRn2I7NfbwQycM2rXzR7jpHrxpa+PxpjHW0cCm4rE=
+			oCQYG/PzkRI9HZVEkaMFpaWYBMdcCniPvbdmkRta9VE=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			amnPDu/KpmDhz5ZgV9FVpyICxebeQFEKD2ckAkp0s/I=
+			IUZENMvdd5awIsavBFau0IA0B42gUUdcEdK1UN9VBj4=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -157,28 +135,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			amnPDu/KpmDhz5ZgV9FVpyICxebeQFEKD2ckAkp0s/I=
+			IUZENMvdd5awIsavBFau0IA0B42gUUdcEdK1UN9VBj4=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r3q34D5UCLzpvcF2XM6ty0lGLECOlvr/Sp+GobIelP8=
+			ehpwXN3c8OXILEdX6yz8PEL0zUW86IrCZXNRZtoaXCY=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+phRn2I7NfbwQycM2rXzR7jpHrxpa+PxpjHW0cCm4rE=
+			oCQYG/PzkRI9HZVEkaMFpaWYBMdcCniPvbdmkRta9VE=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BRZFO3wO03LbB7Z3CkZwVquxAr6wT0sMFxYDioQukK4=
+			uGGOR84pRVjo1noQHTSxQoxL0E70y9V/nIXjZWjq6Jo=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -192,14 +170,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BRZFO3wO03LbB7Z3CkZwVquxAr6wT0sMFxYDioQukK4=
+			uGGOR84pRVjo1noQHTSxQoxL0E70y9V/nIXjZWjq6Jo=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/w6xAMfJxEPLwqOsW7GL9eUjccDCg92sen/zmIqWy9s=
+			SS4VeFnzw+JoMbWl6bjMdhRJ542B0yjoIkte/Ke7PyU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

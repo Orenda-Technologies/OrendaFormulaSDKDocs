@@ -14,7 +14,6 @@ FOUNDATION_EXPORT double OrendaFormulaiOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char OrendaFormulaiOSVersionString[];
 
 #import "OrendaFormula.h"
-#import "OrendaDosagesObjC.h"
 
 // In this header, you should import all the public headers of your framework using statements like #import <OrendaFormulaiOS/PublicHeader.h>
 

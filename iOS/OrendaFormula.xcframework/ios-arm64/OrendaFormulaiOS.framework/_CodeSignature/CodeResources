@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/OrendaDosagesObjC.h</key>
-		<data>
-		Ez5eupjb3p0XW3quBt4iFVZQHso=
-		</data>
 		<key>Headers/OrendaFormula.h</key>
 		<data>
-		fWwLLtW9hvX7p47VQjrpaJYIwnE=
+		BgflAddwSwEo/a0sSKHfA9DHzCM=
 		</data>
 		<key>Headers/OrendaFormulaiOS-Swift.h</key>
 		<data>
@@ -18,11 +14,7 @@
 		</data>
 		<key>Headers/OrendaFormulaiOS.h</key>
 		<data>
-		vIoMUrtFTToA1p+fyzXEV23zxGc=
-		</data>
-		<key>Headers/OrendaMeasurement.h</key>
-		<data>
-		CBjyFqffW3kgq1SDGw+8cUcUrC4=
+		6OFlv7zzcM3xpsXTa5co9CX7K3w=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -30,15 +22,15 @@
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		ClSwflHrEbMxBuvSKwsVukhI7cA=
+		RObHdANd1ImQWkEGePHxcZlZuBo=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		BHgzeuiSKDdzY1ZODtdA3H7hsIU=
+		4f+m5Al9uB43idUg1xDjbpvEA+I=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		3rDHDucG+teEsFyUnQ7JF5lRLRs=
+		SLorj9AEYsPMIFvyPMFsu8hTe18=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -46,11 +38,11 @@
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		3rDHDucG+teEsFyUnQ7JF5lRLRs=
+		SLorj9AEYsPMIFvyPMFsu8hTe18=
 		</data>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fnHkLcoj+TuNAz7LIyQkHoRW+Pc=
+		Kign3VF3/KPIgBBzZoGQGgpjBSY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,18 +51,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/OrendaDosagesObjC.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dhWzDaQ1il8UYHisfy0el5S1knFzq9qxFIm0jMmdZdc=
-			</data>
-		</dict>
 		<key>Headers/OrendaFormula.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5xSfz0Se8ThMl0AsbxXihlZ2xC3cX1hNSxyyOQmeQiM=
+			PqG78/jJu0Njv5JO4B1ytSMFFVT9a9szt4OChD7RhRI=
 			</data>
 		</dict>
 		<key>Headers/OrendaFormulaiOS-Swift.h</key>
@@ -84,35 +69,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wblElZR8SFI9Q0TldzZljeoISVLV6hyNTHBhSuSSpr4=
-			</data>
-		</dict>
-		<key>Headers/OrendaMeasurement.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5RjHcMMpW87cci69E1+Qjns0CMAl8jtkBIs/UkDpHvg=
+			u2pFHidgmpiw8I9RmOBJeoibtdamMDbr+qB1CH00uBo=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K+5x5AQOouxiezdc987kZ/AnZKOJR0bzw6Csz5AP17M=
+			ZHLtxymjzWpqOgy5pRnOPdA9BdxKfDScUCjDmMV5BSU=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+phRn2I7NfbwQycM2rXzR7jpHrxpa+PxpjHW0cCm4rE=
+			oCQYG/PzkRI9HZVEkaMFpaWYBMdcCniPvbdmkRta9VE=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xD1SVguaswg3pxyQ1SiBMGx/IS9jcFtBbYTfZan6ypg=
+			5Ui+mnuTkrXxg1BusjyMGXra/HdBA4H1ZPK0PB/kw+w=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -126,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xD1SVguaswg3pxyQ1SiBMGx/IS9jcFtBbYTfZan6ypg=
+			5Ui+mnuTkrXxg1BusjyMGXra/HdBA4H1ZPK0PB/kw+w=
 			</data>
 		</dict>
 		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			47w88mY4N29g/4y0QIRQ9YqB6aL629Zh3HgqJDZRZoE=
+			cwzArtI0dBmyCwjJETznaG7smdD6KzRwevfwopwFMTA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

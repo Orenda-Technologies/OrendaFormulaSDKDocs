@@ -5,23 +5,12 @@
 #ifndef ORENDAFORMULA_ORENDAFORMULA_H
 #define ORENDAFORMULA_ORENDAFORMULA_H
 
-#include "OrendaMeasurement.h"
-
 #ifdef __cplusplus
 extern "C" {
 #endif
     bool OrendaPrepare(const char* token);
 
-    struct LSIResult {
-        double current;
-        double desired;
-        double phCellingCurrent;
-        double phCellingDesired;
-        double carbonateAlkalinityCurrent;
-        double carbonateAlkalinityDesired;
-    };
-
-    struct LSIResult OrendaCalculateLSI(
+    bool OrendaCalculateLSI(
         double waterTemperatureCurrentF,
         double pHCurrent,
         double totalAlkalinityCurrent,
@@ -38,19 +27,24 @@ extern "C" {
         double saltDesired,
         double boratesDesired,
 
-        bool* success
+        double* lsiCurrent,
+        double* lsiDesired
     );
 
+    enum OrendaMeasurement {
+        ORENDA_USA, ORENDA_METRIC
+    };
+
     double OrendaExecutePoolVolumeEstimatorForCircle(
-            double radius, double depth, enum OrendaMeasurement measurement);
+            double radius, double depth, OrendaMeasurement measurement);
     double OrendaExecutePoolVolumeEstimatorForRectangle(
             double length, double width,
             double shallowDepth, double deepDepth,
-            enum OrendaMeasurement measurement);
+            OrendaMeasurement measurement);
     double OrendaExecutePoolVolumeEstimatorForOblong(
             double length, double smallDiameter, double largeDiameter,
             double shallowDepth, double deepDepth,
-            enum OrendaMeasurement measurement);
+            OrendaMeasurement measurement);
 #ifdef __cplusplus
 }
 #endif
