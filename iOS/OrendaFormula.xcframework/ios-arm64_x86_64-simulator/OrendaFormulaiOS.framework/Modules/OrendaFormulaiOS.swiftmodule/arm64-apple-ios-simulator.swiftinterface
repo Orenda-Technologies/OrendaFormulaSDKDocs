@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OrendaFormulaiOS
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OrendaFormulaiOS
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 @_exported import OrendaFormulaiOS
@@ -8,7 +8,22 @@ import Swift
 import _Concurrency
 import _StringProcessing
 @_hasMissingDesignatedInitializers public class OrendaCalculator {
-  public static func calculateLSI(waterTemperatureCurrentF: Swift.Double, pHCurrent: Swift.Double, totalAlkalinityCurrent: Swift.Double, calciumCurrent: Swift.Double, cyaCurrent: Swift.Double, saltCurrent: Swift.Double, boratesCurrent: Swift.Double, waterTemperatureDesiredF: Swift.Double, pHDesired: Swift.Double, totalAlkalinityDesired: Swift.Double, calciumDesired: Swift.Double, cyaDesired: Swift.Double, saltDesired: Swift.Double, boratesDesired: Swift.Double, lsiCurrent: inout Swift.Double, lsiDesired: inout Swift.Double) -> Swift.Bool
+  public static func calculateLSI(waterTemperatureCurrent: OrendaFormulaiOS.Temperature, pHCurrent: Swift.Double, totalAlkalinityCurrent: Swift.Double, calciumCurrent: Swift.Double, cyaCurrent: Swift.Double, saltCurrent: Swift.Double, boratesCurrent: Swift.Double, waterTemperatureDesired: OrendaFormulaiOS.Temperature, pHDesired: Swift.Double, totalAlkalinityDesired: Swift.Double, calciumDesired: Swift.Double, cyaDesired: Swift.Double, saltDesired: Swift.Double, boratesDesired: Swift.Double) -> OrendaFormulaiOS.LSIResult?
+  public static func estimatePoolVolume(shape: OrendaFormulaiOS.PoolShape, measurement: OrendaFormulaiOS.OrendaMeasurement) -> Swift.Double
+  public static func calculateDosages(poolVolume: OrendaFormulaiOS.PoolVolume, measurement: OrendaFormulaiOS.OrendaMeasurement, pHCurrent: Swift.Double, currentTemperature: OrendaFormulaiOS.Temperature, totalAlkalinityCurrent: Swift.Double, calciumCurrent: Swift.Double, cyaCurrent: Swift.Double, saltCurrent: Swift.Double, boratesCurrent: Swift.Double, chlorineCurrent: Swift.Double, phosphateCurrent: Swift.Double, pHDesired: Swift.Double, totalAlkalinityDesired: Swift.Double, calciumDesired: Swift.Double, cyaDesired: Swift.Double, saltDesired: Swift.Double, chlorineDesired: Swift.Double, phosphateDesired: Swift.Double) -> Swift.String
   public static func initialize(token: Swift.String) -> Swift.Bool
   @objc deinit
+}
+public enum PoolShape {
+  case circle(radius: Swift.Double, depth: Swift.Double)
+  case rectangle(length: Swift.Double, width: Swift.Double, deepDepth: Swift.Double, shallowDepth: Swift.Double)
+  case oblong(length: Swift.Double, smallDiameter: Swift.Double, largeDiameter: Swift.Double, deepDepth: Swift.Double, shallowDepth: Swift.Double)
+}
+public enum PoolVolume {
+  case gallons(Swift.Double)
+  case liters(Swift.Double)
+}
+public enum Temperature {
+  case celsius(Swift.Double)
+  case fahrenheit(Swift.Double)
 }
