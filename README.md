@@ -190,3 +190,104 @@ val poolVolume = OrendaCalculator.estimatePoolVolume(
     measurement = Measurement.USA
 )
 ```
+
+# Web API
+
+## Authentication
+
+In order to use the API you need to authenticate first.
+For authentication use this method.
+```
+https://orendatechapi.com/auth
+POST
+```
+And pass the token, issued to you as its body.
+<img width="1442" alt="Screenshot 2023-02-25 at 7 24 50 PM (1)" src="https://github.com/Orenda-Technologies/OrendaFormulaSDKDocs/assets/12134914/08b64919-ca3e-483d-b253-25e3e78d7439">
+You will get another token. And you pass that token to `calculateLSI` and `dosageRecommendations` calls as Bearer token.
+![unnamed (1) (1)](https://github.com/Orenda-Technologies/OrendaFormulaSDKDocs/assets/12134914/65d70d00-82e2-49a3-a2e7-e26fb237253d)
+
+### Token expiration
+
+When the token returned from `/auth` POST call is expired you will receive 401 error while calling API methods. To renew the token call `/auth` again.
+
+## Calculate LSI
+
+**Here is the example link:**
+GET https://orendatechapi.com/calculateLSI?waterTemperatureCurrentF=80&phCurrent=7.6&totalAlkalinityCurrent=80&calciumCurrent=300&cyaCurrent=145&saltCurrent=400&boratesCurrent=80&waterTemperatureDesiredF=77&phDesired=8.2&totalAlkalinityDesired=15&calciumDesired=220&cyaDesired=5&saltDesired=0&boratesDesired=0
+
+The API Call returns currend and desired LSI
+
+All the parameters are required and necessary, because all of them affect the result. For water temperature you can pass waterTemperatureCurrentF/waterTemperatureDesiredF for temperature in Fahrenheit or waterTemperatureCurrentC/waterTemperatureDesiredC for temperature in Celsius. 
+
+## Get dosage recommendations
+
+**Here is the example link:**
+GET https://orendatechapi.com/dosageRecommendations?gallons=1000&measurement=usa&waterTemperatureCurrentF=80&phCurrent=7.6&totalAlkalinityCurrent=80&calciumCurrent=300&cyaCurrent=145&saltCurrent=400&boratesCurrent=80&chlorineCurrent=6.5&phosphateCurrent=2000&phDesired=8.2&totalAlkalinityDesired=15&calciumDesired=220&cyaDesired=5&saltDesired=0&chlorineDesired=9.5&phosphateDesired=1100
+
+As measurement you can pass `usa` or `metric`. All parameters are required, however not all of them are necessary. It means you can skip several values by passing the same values for current and desired. However note that proper temperature is required to calculate pH and futureAlkalinity.
+
+The API call returns dosage recommendations to achieve the desired result from the passed current values as well as dosage recommendations for pool maintenance using Orenda products.
+
+## Calculate LSI Batch
+
+With this API call you could calculate several LSI results using a single call.
+
+POST https://orendatechapi.com/calculateLSIBatch
+Example JSON body:
+```
+Here is an example JSON request body.
+[
+  {
+    "waterTemperatureCurrentF": 80,
+    "phCurrent": 6.6,
+    "totalAlkalinityCurrent": 80,
+    "calciumCurrent":  300,
+    "cyaCurrent": 145,
+    "saltCurrent": 400,
+    "boratesCurrent": 80,
+    "waterTemperatureDesiredF": 77,
+    "phDesired": 8.2,
+    "totalAlkalinityDesired": 15,
+    "calciumDesired": 220,
+    "cyaDesired": 5,
+    "saltDesired": 0,
+    "boratesDesired": 0
+  },
+  {
+    "waterTemperatureCurrentF": 80,
+    "phCurrent": 9.6,
+    "totalAlkalinityCurrent": 80,
+    "calciumCurrent":  300,
+    "cyaCurrent": 145,
+    "saltCurrent": 400,
+    "boratesCurrent": 80,
+    "waterTemperatureDesiredF": 77,
+    "phDesired": 8.2,
+    "totalAlkalinityDesired": 15,
+    "calciumDesired": 220,
+    "cyaDesired": 5,
+    "saltDesired": 0,
+    "boratesDesired": 0
+  },
+  {
+    "waterTemperatureCurrentF": 80,
+    "phCurrent": 7.6,
+    "totalAlkalinityCurrent": 80,
+    "calciumCurrent":  300,
+    "cyaCurrent": 145,
+    "saltCurrent": 400,
+    "boratesCurrent": 80,
+    "waterTemperatureDesiredF": 77,
+    "phDesired": 4.2,
+    "totalAlkalinityDesired": 15,
+    "calciumDesired": 220,
+    "cyaDesired": 5,
+    "saltDesired": 0,
+    "boratesDesired": 0
+  }
+]
+```
+
+The call returns an array of LSI results for each parameters set.
+
+
