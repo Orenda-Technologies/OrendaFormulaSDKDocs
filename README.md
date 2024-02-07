@@ -218,7 +218,9 @@ GET https://orendatechapi.com/calculateLSI?waterTemperatureCurrentF=80&phCurrent
 
 The API Call returns currend and desired LSI
 
-All the parameters are required and necessary, because all of them affect the result. For water temperature you can pass waterTemperatureCurrentF/waterTemperatureDesiredF for temperature in Fahrenheit or waterTemperatureCurrentC/waterTemperatureDesiredC for temperature in Celsius. 
+All the parameters are required and necessary, because all of them affect the result. 
+
+For water temperature you can pass `waterTemperatureCurrentF/waterTemperatureDesiredF` for temperature in Fahrenheit or `waterTemperatureCurrentC/waterTemperatureDesiredC` for temperature in Celsius. 
 
 ## Get dosage recommendations
 
