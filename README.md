@@ -208,7 +208,7 @@ You will get another token. And you pass that token to `calculateLSI` and `dosag
 
 ### Token expiration
 
-When the token returned from `/auth` POST call is expired you will receive 401 error while calling API methods. To renew the token call `/auth` again.
+When the token returned from `/auth` POST call is expired you will receive 401 error while calling API methods. To renew the token call `/auth` again. Token lifetime is 24 hours.
 
 ## Calculate LSI
 
