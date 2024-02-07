@@ -295,4 +295,26 @@ Example JSON body:
 
 The call returns an array of LSI results for each parameters set.
 
+## Estimate Pool Volume
 
+If as measurement query parameter you pass `usa`, result will be in gallons, and parameters are considered to be in feets. If you pass `metric` meters and liters will be used.
+
+Here are different example urls for different shapes:
+
+### Rectangle
+
+**Example url:**
+
+GET https://orendatechapi.com/poolVolume?shape=rectangle&width=10.0&length=20.0&shallowDepth=4.0&deepDepth=6.0&measurement=usa
+
+### Circle
+
+**Example url:**
+
+GET https://orendatechapi.com/poolVolume?shape=circle&radius=15.0&depth=5.0&measurement=metric
+
+### Oblong
+
+**Example url:**
+
+GET https://orendatechapi.com/poolVolume?shape=oblong&length=30.0&shallowDepth=3.0&deepDepth=8.0&smallDiameter=10.0&largeDiameter=20.0&measurement=usa
