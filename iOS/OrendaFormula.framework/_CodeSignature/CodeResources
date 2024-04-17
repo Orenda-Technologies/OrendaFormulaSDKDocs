@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/OrendaFormulaiOS-Swift.h</key>
 		<data>
-		zbnPlN6jgHsu/lfsd4Fr5t9HbAY=
+		86uaKZTAAi6TmzURepmsJoLC+mY=
 		</data>
 		<key>Headers/OrendaFormulaiOS.h</key>
 		<data>
@@ -26,31 +26,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Y7dyDKdi2vgttO67FzcsCCwvzy0=
+		eprzNXKrnup1bl/854JuaRCstCA=
 		</data>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		T8SNZnmGSxSklFtQNPGeZLKrk24=
+		KCpNGBDEo6Kh2aR11s7pBiwTxZA=
 		</data>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		Acmqx5mAkvW1zHp0ziRxdbX5QOU=
+		</data>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		DRRASROH9xxUzbnIPZcPj8oxQ6o=
 		</data>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		T9hnEjdAw1D02S172P7c8zjDSLs=
+		cN+ATsHqbRcHQQbPf/u+TLpTTAU=
 		</data>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ulVpU6TvDWk0WxO5D5g3p9RHfxo=
+		f16IHuHS0/4Ntls1iZncQR6Nj6A=
 		</data>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		T9hnEjdAw1D02S172P7c8zjDSLs=
+		cN+ATsHqbRcHQQbPf/u+TLpTTAU=
 		</data>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NXOXND+78ZQi0qUeTrdbD0yj3Xs=
+		ddC6avwIBtE0Pdl4VB1B5TDIUHg=
+		</data>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		DRRASROH9xxUzbnIPZcPj8oxQ6o=
+		</data>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		69DEGtk2/k/7C7A9XOIInrFapd8=
+		</data>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		JVuuqZsGnsl5CZgCUOAJZUJjfbo=
+		</data>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		69DEGtk2/k/7C7A9XOIInrFapd8=
+		</data>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		kPbLsQMTUG6DJSmbxyCg5Fg/qs8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PSWaZWyp6d/IB6+FjEb8FIaskp6HzSbnqyyVFd7MqB0=
+			kffztJgthuQDcG12yCRXxXzgMBQ99P+N/VJE0gOw29Y=
 			</data>
 		</dict>
 		<key>Headers/OrendaFormulaiOS.h</key>
@@ -94,46 +118,88 @@
 			5RjHcMMpW87cci69E1+Qjns0CMAl8jtkBIs/UkDpHvg=
 			</data>
 		</dict>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ElQJb7WfefxbHmpO2VdBkKXmF0Jpk56XdK6nmvrf/Xw=
+			bnNoe5VY8yNYqhIruPR0pLjYy/uoajOUsdWQZ3ixJVo=
 			</data>
 		</dict>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cprXuYk8MqaMVItAUMHCmZ1+vBJEmhE5UNr1q4YOnJ0=
+			</data>
+		</dict>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			86LyIPqwOj6TWM96rGxtYDi+7n+V/xAIvaLBMenSZYQ=
 			</data>
 		</dict>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OOgI1vcWYnth0nwioRiDRbZs46vBfqkAmiRx13/kvPE=
+			7JD4qyKJ5+HVUC692tOm6SrspYiyIlFR5LY94grbTMQ=
 			</data>
 		</dict>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YEcoN7SAOTmOsOxjrSPrTu6bA8sfyNNhiuwD3VF1FYk=
+			NwfRFhBTRzGnh2KCPZZoYMpRl0+x6nhRo0MWEmbz8EY=
 			</data>
 		</dict>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OOgI1vcWYnth0nwioRiDRbZs46vBfqkAmiRx13/kvPE=
+			7JD4qyKJ5+HVUC692tOm6SrspYiyIlFR5LY94grbTMQ=
 			</data>
 		</dict>
-		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KYpsjygC3dHnPMMmMuegez+L4Y9EFXgxanUWYVeHrC0=
+			QkSaDzz/ZkCfv4JA1FeKPetwKN//fpxxyUCsCFMbRAY=
+			</data>
+		</dict>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			86LyIPqwOj6TWM96rGxtYDi+7n+V/xAIvaLBMenSZYQ=
+			</data>
+		</dict>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K48FIx/Ojm4rgx9pOrRow/wwMyIbKBi2AbM4IodE2vE=
+			</data>
+		</dict>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oYD0bJjwFY2T4Kd5EE9upPjT+AmhL51r3p2M5y7BKjo=
+			</data>
+		</dict>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K48FIx/Ojm4rgx9pOrRow/wwMyIbKBi2AbM4IodE2vE=
+			</data>
+		</dict>
+		<key>Modules/OrendaFormulaiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			c/PCyLzrE8URuG0ed0+ShC4nq5dQ8XOhOp775YSJ58U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
