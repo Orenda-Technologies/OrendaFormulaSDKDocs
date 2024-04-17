@@ -833,5 +833,13 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/semyon\/Projects\/OrendaFormula\/OrendaFormulaiOS\/OrendaFormulaiOS\/OrendaCalculator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 146,
+      "length": 5,
+      "value": "false"
+    }
+  ]
 }
