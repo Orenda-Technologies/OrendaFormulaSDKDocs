@@ -110,8 +110,7 @@ dependencies {
 3) Before using any methods of OrendaCalculator class you have to initialize the formula. Call `init` method of OrendaCalculator and pass your token. 
 #### Note:
 `init` method shoould be called on a BACKGROUND *(otherwise the init method will return false)* thread and exactly once per application launch.
-
-INTERNET permission should be included into AndroidManifest.xml *(otherwise the init method will return false)* 
+`INTERNET` permission should be included into AndroidManifest.xml *(otherwise the init method will return false)* 
 #### Note:
 Internet connection is required to initialize OrendaCalculator for the first time. Then you have to connect to the internet at least once per 2 weeks or per 1 month to update the token. The delay is sepcified in the token, issued to you. SDK does everything autmatically you just have to call initalize all the time you start working with OrendaCalculator. You can do it in Application.onCreate for example.
 
