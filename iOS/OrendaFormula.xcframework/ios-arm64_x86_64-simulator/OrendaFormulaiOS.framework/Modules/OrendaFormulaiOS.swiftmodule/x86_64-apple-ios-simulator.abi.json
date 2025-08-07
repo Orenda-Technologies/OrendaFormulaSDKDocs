@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "OrendaFormulaiOS",
+    "printedName": "OrendaFormulaiOS",
     "children": [
       {
         "kind": "Import",
@@ -328,6 +328,238 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLsiColor",
+            "printedName": "getLsiColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OrendaFormulaiOS0A10CalculatorC11getLsiColorySSSdFZ",
+            "mangledName": "$s16OrendaFormulaiOS0A10CalculatorC11getLsiColorySSSdFZ",
+            "moduleName": "OrendaFormulaiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPhColor",
+            "printedName": "getPhColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OrendaFormulaiOS0A10CalculatorC10getPhColorySSSdFZ",
+            "mangledName": "$s16OrendaFormulaiOS0A10CalculatorC10getPhColorySSSdFZ",
+            "moduleName": "OrendaFormulaiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTotalAlkalinityColor",
+            "printedName": "getTotalAlkalinityColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OrendaFormulaiOS0A10CalculatorC23getTotalAlkalinityColorySSSdFZ",
+            "mangledName": "$s16OrendaFormulaiOS0A10CalculatorC23getTotalAlkalinityColorySSSdFZ",
+            "moduleName": "OrendaFormulaiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCalciumColor",
+            "printedName": "getCalciumColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OrendaFormulaiOS0A10CalculatorC15getCalciumColorySSSdFZ",
+            "mangledName": "$s16OrendaFormulaiOS0A10CalculatorC15getCalciumColorySSSdFZ",
+            "moduleName": "OrendaFormulaiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCyaColor",
+            "printedName": "getCyaColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OrendaFormulaiOS0A10CalculatorC11getCyaColorySSSdFZ",
+            "mangledName": "$s16OrendaFormulaiOS0A10CalculatorC11getCyaColorySSSdFZ",
+            "moduleName": "OrendaFormulaiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBorateColor",
+            "printedName": "getBorateColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OrendaFormulaiOS0A10CalculatorC14getBorateColorySSSdFZ",
+            "mangledName": "$s16OrendaFormulaiOS0A10CalculatorC14getBorateColorySSSdFZ",
+            "moduleName": "OrendaFormulaiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCarbonateAlkalinityColor",
+            "printedName": "getCarbonateAlkalinityColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OrendaFormulaiOS0A10CalculatorC27getCarbonateAlkalinityColorySSSdFZ",
+            "mangledName": "$s16OrendaFormulaiOS0A10CalculatorC27getCarbonateAlkalinityColorySSSdFZ",
+            "moduleName": "OrendaFormulaiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPhCeilingColor",
+            "printedName": "getPhCeilingColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OrendaFormulaiOS0A10CalculatorC17getPhCeilingColorySSSdFZ",
+            "mangledName": "$s16OrendaFormulaiOS0A10CalculatorC17getPhCeilingColorySSSdFZ",
+            "moduleName": "OrendaFormulaiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -337,7 +569,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -580,6 +828,22 @@
         "moduleName": "OrendaFormulaiOS",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -704,6 +968,22 @@
         "moduleName": "OrendaFormulaiOS",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -828,6 +1108,22 @@
         "moduleName": "OrendaFormulaiOS",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       }
     ],
@@ -835,11 +1131,39 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/semyon\/Projects\/OrendaFormula\/OrendaFormulaiOS\/OrendaFormulaiOS\/OrendaCalculator.swift",
+      "filePath": "\/Users\/Semyon\/Projects\/OrendaFormula\/OrendaFormulaiOS\/OrendaFormulaiOS\/OrendaCalculator.swift",
       "kind": "BooleanLiteral",
       "offset": 146,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Semyon\/Projects\/OrendaFormula\/OrendaFormulaiOS\/OrendaFormulaiOS\/OrendaCalculator.swift",
+      "kind": "StringLiteral",
+      "offset": 4252,
+      "length": 9,
+      "value": "\"#FFBE33\""
+    },
+    {
+      "filePath": "\/Users\/Semyon\/Projects\/OrendaFormula\/OrendaFormulaiOS\/OrendaFormulaiOS\/OrendaCalculator.swift",
+      "kind": "StringLiteral",
+      "offset": 4289,
+      "length": 9,
+      "value": "\"#8DC642\""
+    },
+    {
+      "filePath": "\/Users\/Semyon\/Projects\/OrendaFormula\/OrendaFormulaiOS\/OrendaFormulaiOS\/OrendaCalculator.swift",
+      "kind": "StringLiteral",
+      "offset": 4327,
+      "length": 9,
+      "value": "\"#7B42C6\""
+    },
+    {
+      "filePath": "\/Users\/Semyon\/Projects\/OrendaFormula\/OrendaFormulaiOS\/OrendaFormulaiOS\/OrendaCalculator.swift",
+      "kind": "StringLiteral",
+      "offset": 4362,
+      "length": 9,
+      "value": "\"#C12020\""
     }
   ]
 }
