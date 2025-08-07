@@ -95,6 +95,19 @@ If you pass `ORENDA_USA`, result will be in gallons, and parameters are consider
 let poolVolume = OrendaCalculator.estimatePoolVolume(shape: .circle(radius: 100, depth: 20), measurement: ORENDA_USA)
 ```
 
+### Getting indicator colors
+There are addition utility methods to get indicator colors for LSI and dosages.
+```Swift
+public static func getLsiColor(_ value: Double) -> String
+public static func getPhColor(_ value: Double) -> String
+public static func getTotalAlkalinityColor(_ value: Double) -> String
+public static func getCalciumColor(_ value: Double) -> String
+public static func getCyaColor(_ value: Double) -> String
+public static func getBorateColor(_ value: Double) -> String
+public static func getCarbonateAlkalinityColor(_ value: Double) -> String
+public static func getPhCeilingColor(_ value: Double) -> String
+```
+
 # Android
 
 ## Setup 
@@ -192,6 +205,18 @@ val poolVolume = OrendaCalculator.estimatePoolVolume(
     ),
     measurement = Measurement.USA
 )
+```
+### Getting indicator colors
+There are addition utility methods to get indicator colors for LSI and dosages.
+```Kotlin
+fun getLsiColor(value: Double): String
+fun getPhColor(value: Double): String
+fun getTotalAlkalinityColor(value: Double): String
+fun getCalciumColor(value: Double): String
+fun getCyaColor(value: Double): String
+fun getBorateColor(value: Double): String
+fun getCarbonateAlkalinityColor(value: Double): String
+fun getPhCeilingColor(value: Double): String
 ```
 
 # Web API
@@ -321,3 +346,76 @@ GET https://orendatechapi.com/poolVolume?shape=circle&radius=15.0&depth=5.0&meas
 **Example url:**
 
 GET https://orendatechapi.com/poolVolume?shape=oblong&length=30.0&shallowDepth=3.0&deepDepth=8.0&smallDiameter=10.0&largeDiameter=20.0&measurement=usa
+
+---
+
+## Get Indicator Colors
+
+You can retrieve color-coded indicators for LSI, pH, alkalinity, calcium, CYA, borates, carbonate alkalinity, and pH ceiling using the following API endpoint:
+
+```
+GET https://orendatechapi.com/colors
+```
+
+### Query Parameters
+
+All parameters are optional, but any provided value will return a color. The returned colors correspond to current and desired water chemistry values. You may pass any combination of the following parameters:
+
+| Parameter                    | Description                        |
+| ---------------------------- | ---------------------------------- |
+| `lsiCurrent`                 | LSI current value                  |
+| `lsiDesired`                 | LSI desired value                  |
+| `phCurrent`                  | pH current                         |
+| `phDesired`                  | pH desired                         |
+| `totalAlkalinityCurrent`     | Total alkalinity current (ppm)     |
+| `totalAlkalinityDesired`     | Total alkalinity desired (ppm)     |
+| `calciumCurrent`             | Calcium hardness current (ppm)     |
+| `calciumDesired`             | Calcium hardness desired (ppm)     |
+| `cyaCurrent`                 | Cyanuric acid current (ppm)        |
+| `cyaDesired`                 | Cyanuric acid desired (ppm)        |
+| `boratesCurrent`             | Borates current (ppm)              |
+| `boratesDesired`             | Borates desired (ppm)              |
+| `carbonateAlkalinityCurrent` | Carbonate alkalinity current (ppm) |
+| `carbonateAlkalinityDesired` | Carbonate alkalinity desired (ppm) |
+| `phCeilingCurrent`           | pH Ceiling current                 |
+| `phCeilingDesired`           | pH Ceiling desired                 |
+
+### Response Example
+
+```json
+{
+  "lsiCurrentColor": "#7B42C6",
+  "lsiDesiredColor": "#8DC642",
+  "phCurrentColor": "#FFBE33",
+  "phDesiredColor": "#8DC642",
+  "totalAlkalinityCurrentColor": "#8DC642",
+  "totalAlkalinityDesiredColor": "#C12020",
+  "calciumCurrentColor": "#8DC642",
+  "calciumDesiredColor": "#FFBE33",
+  "cyaCurrentColor": "#FFBE33",
+  "cyaDesiredColor": "#C12020",
+  "borateCurrentColor": "#8DC642",
+  "borateDesiredColor": "#C12020",
+  "carbonateAlkalinityCurrentColor": "#FFBE33",
+  "carbonateAlkalinityDesiredColor": "#7B42C6",
+  "phCeilingCurrentColor": "#C12020",
+  "phCeilingDesiredColor": "#8DC642"
+}
+```
+
+### Color Codes
+
+| Color  | Hex       | Meaning                       |
+| ------ | --------- | ----------------------------- |
+| Green  | `#8DC642` | Ideal / Balanced              |
+| Yellow | `#FFBE33` | Slight deviation              |
+| Red    | `#C12020` | Problematic / Needs attention |
+| Purple | `#7B42C6` | Excessive / Oversaturated     |
+
+### Notes
+
+* Any value not passed will result in the corresponding color being omitted in the response.
+* The endpoint is **stateless** and does not require authentication.
+
+---
+
